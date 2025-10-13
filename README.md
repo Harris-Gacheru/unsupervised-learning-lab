@@ -9,6 +9,7 @@ Unsupervised learning trains models on data without labeled responses, aiming to
 ## Project Structure
 
 - `MLClustering.ipynb`: Jupyter notebook with step-by-step clustering workflow.
+- `MarketBasketAnalysis.ipynb`: Jupyter notebook for market basket analysis (association rule mining).
 - `requirements.txt`: Python dependencies.
 - `.gitignore`: Ignores the `.venv` directory.
 
@@ -35,12 +36,14 @@ Unsupervised learning trains models on data without labeled responses, aiming to
    ```
 
 4. **Run the notebook**
-   - Open `MLClustering.ipynb` in Jupyter Notebook or VS Code.
-   - Follow the steps to download the dataset, preprocess data, and perform clustering.
+   - Open `MLClustering.ipynb` for clustering analysis.
+   - Open `MarketBasketAnalysis.ipynb` for market basket analysis.
+   - Use Jupyter Notebook or VS Code to follow the steps in each notebook.
 
 ## Data
 
-The notebook downloads the [Mall_Customers.csv](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python) dataset using `kagglehub`.
+- `MLClustering.ipynb` downloads the [Mall_Customers.csv](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python) dataset using `kagglehub`.
+- `MarketBasketAnalysis.ipynb` uses a transactional dataset for association rule mining.
 
 ## License
 

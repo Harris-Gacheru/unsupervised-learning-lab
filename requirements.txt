@@ -28,6 +28,7 @@ kiwisolver==1.4.9
 logistro==1.1.0
 matplotlib==3.10.7
 matplotlib-inline==0.1.7
+mlxtend==0.23.4
 narwhals==2.7.0
 nbformat==5.10.4
 nest-asyncio==1.6.0
@@ -58,6 +59,7 @@ requests==2.32.5
 rpds-py==0.27.1
 scikit-learn==1.7.2
 scipy==1.16.2
+seaborn==0.13.2
 simplejson==3.20.2
 six==1.17.0
 stack-data==0.6.3
